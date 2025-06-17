@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Feliz Aniversario, Mi Amor</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&display=swap');
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 40px 20px;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #fce4ec, #f8bbd0);
+      color: #4a1a1a;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .card {
+      background: white;
+      border-radius: 30px;
+      max-width: 720px;
+      padding: 40px 50px;
+      box-shadow: 0 12px 35px rgba(219, 112, 147, 0.35);
+      text-align: center;
+      line-height: 1.65;
+      position: relative;
+    }
+    .card::before {
+      content: "❤";
+      font-size: 5rem;
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      color: #d81e5b;
+      opacity: 0.15;
+      transform: rotate(15deg);
+      user-select: none;
+      pointer-events: none;
+    }
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3.8rem;
+      color: #d81e5b;
+      margin-bottom: 0.25em;
+      letter-spacing: 0.04em;
+      text-shadow: 1px 1px 5px #f48fb1;
+    }
+    p {
+      font-size: 1.25rem;
+      margin: 1.1em 0;
+      color: #5e224b;
+      max-width: 100%;
+    }
+    .highlight {
+      color: #a31545;
+      font-weight: 600;
+    }
+    .signature {
+      margin-top: 3em;
+      font-style: italic;
+      font-weight: 600;
+      font-size: 1.3rem;
+      color: #922c55;
+    }
+    audio {
+      margin-bottom: 20px;
+    }
+    img {
+      border-radius: 15px;
+      margin: 10px;
+    }
+    @media (max-width: 600px) {
+      .card {
+        padding: 30px 25px;
+      }
+      h1 {
+        font-size: 2.8rem;
+      }
+      p {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="img1.jpg" alt="foto bonita 1" width="500" height="500">
+  <img src="img2.jpg" alt="foto bonita 2" width="500" height="500">
+
+  <audio controls autoplay loop>
+    <source src="cancion2.mp3" type="audio/mpeg" />
+    <source src="cancion.ogg" type="audio/ogg" />
+    Tu navegador no es compatible con el audio de HTML.
+  </audio>
+
+  <article class="card" role="main" aria-label="Carta de aniversario para mi amor">
+    <h1>Feliz aniversario, mi amor ❤</h1>
+    <p>Quiero darte las <span class="highlight">gracias infinitas</span> por estar siempre a mi lado, por <span class="highlight">cambiar mi mundo completamente</span> y llenar mi vida de felicidad. A tu lado he vivido momentos maravillosos que atesoro con todo mi corazón.</p>
+    <p>Hoy celebramos un mes más juntos y siento que este amor crece con cada instante que compartimos. Sé que no todo es perfecto, que a veces llegan momentos difíciles, pero sé también que <span class="highlight">nuestra fuerza y amor siempre nos sacan adelante</span>. Te amaré por siempre, pase lo que pase, y <span class="highlight">jamás me iré de tu vida</span>, aunque a veces lo pidas.</p>
+    <p>Encontrarte fue un regalo inesperado; contigo he descubierto una paz, un cariño y un amor que me hacen mejor persona. Me haces sonreír con cada mensaje, con cada llamada, y me transmites una tranquilidad que sólo tú sabes dar.</p>
+    <p>Eres un sueño hecho realidad, la persona que siempre imaginé tener a mi lado. Gracias por darme la oportunidad de ser tu novio, por tu confianza y por permitirme ser yo mismo contigo. Juntos, hemos construido un espacio de amor y respeto que quiero cuidar por siempre.</p>
+    <p>Estos meses contigo han sido los más felices de mi vida, me has hecho el hombre más afortunado del mundo y no dejo de agradecer a Dios por haberte puesto en mi camino.</p>
+    <p>Te mereces todo lo bueno que la vida pueda ofrecer, porque eres una persona hermosa no sólo por fuera, sino también por dentro, con un corazón lleno de bondad y dulzura. Espero que te conformes conmigo, porque yo daré lo mejor de mí para hacerte feliz cada día.</p>
+    <p>Te amo más allá de las palabras, y como hemos prometido, este amor llegará <span class="highlight">de aquí al infinito, a pasitos de tortuga</span>, porque las mejores cosas se construyen con paciencia y dedicación.</p>
+    <p>Cuando hablo contigo, <span class="highlight">mi mundo se detiene</span>. Eres única y especial, y nadie podrá ocupar el lugar que tienes en mi corazón.</p>
+    <p>Gracias por ser tú, por ser mi compañera, mi amiga y mi amor. Le pido a Dios con lágrimas en los ojos que siempre seas tú, y sólo tú.</p>
+    <p>Pronto, ya no serán solo mensajes, sino palabras que te diré personalmente.</p>
+    <p class="signature">Te amo mucho, mi churrumina.<br>¡Feliz aniversario! 💖</p>
+  </article>
+</body>
+</html>
